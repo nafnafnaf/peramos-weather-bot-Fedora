@@ -252,4 +252,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Made with ❤️ for real-time weather monitoring**
 
-*Remember to replace `YOUR_USERNAME` with your actual GitHub username before publishing!*
