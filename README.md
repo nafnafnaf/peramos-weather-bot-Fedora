@@ -16,13 +16,13 @@ A lightweight Telegram bot that fetches real-time weather data from Nea Peramos 
 
 ### One-Line Installation (Easiest)
 ```bash
-curl -sSL https://raw.githubusercontent.com/nafnafnaf/peramos-weather-bot/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/peramos-weather-bot/main/install.sh | bash
 ```
 
 ### Manual Installation
 ```bash
 # Clone repository
-git clone https://github.com/nafnafnaf/peramos-weather-bot.git
+git clone https://github.com/YOUR_USERNAME/peramos-weather-bot.git
 cd peramos-weather-bot
 
 # Run installer
@@ -46,7 +46,7 @@ The installer will:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/nafnafnaf/peramos-weather-bot.git
+git clone https://github.com/YOUR_USERNAME/peramos-weather-bot.git
 cd peramos-weather-bot
 ```
 
@@ -250,7 +250,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 
 
---
-
 **Made with ❤️ for real-time weather monitoring**
 
+*Remember to replace `YOUR_USERNAME` with your actual GitHub username before publishing!*
