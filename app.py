@@ -18,7 +18,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '7162260320:AAEkpBMf8xfEgGQHSXSkyqd0QTtcej7SrmQ')
+TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
+if not TOKEN:
+    logger.error("TELEGRAM_BOT_TOKEN not set in environment variables!")
+    sys.exit(1)
+
 WEATHER_URL = "http://penteli.meteo.gr/stations/neaperamos/"
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
 
